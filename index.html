@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <title>Mi CV</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="images/logo.png">
+            </div>  
+            <div class="menu-icon" onclick="toggleX()">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <ul class="cerrado">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+                <li><a href="actividad.html">Actividad profesional</a></li>
+                <li><a href="idiomas.html">Idiomas</a></li>
+                <li><a href="otros.html">Otros</a></li>
+            </ul>
+        </header>
+        <main class="main-index">
+            <div class="carousel">
+                <div id="item1" class="carousel-item">            
+                    <div>
+                        <img src="images/foto.jpg"/>
+                    </div>
+                    <div>
+                        <h1>Inés Díaz del Rey</h1>
+                        <p>Graduada en Ingeniería de la Salud de la Universidad de Málaga, especialidad de Bioinformática.
+                            Estudiante de último curso del Máster en Ingeniería Web de la Universidad de Oviedo.</p>
+                    </div>
+                </div>
+                <div id="item2" class="carousel-item">
+                    <img src="images/random1.png">
+                </div>
+                <div id="item3" class="carousel-item">
+                    <img src="images/random2.jpg">
+                </div>
+            </div>
+            <div id="controls" class="controls">
+                <a href="#item1" class="controls-dot"></a>
+                <a href="#item2" class="controls-dot"></a>
+                <a href="#item3" class="controls-dot"></a>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <label><b>Información de contacto</b></label>
+                <label><i class="fa fa-envelope" aria-hidden="true"></i> uo296434@uniovi.es</label>
+                <label><i class="fa fa-phone" aria-hidden="true"></i> (+34) 686 43 14 64</label>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/ines.diazdelrey" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/inesdr6" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/ines-diaz-del-rey/" class="fa fa-linkedin"></a>
+            </div>
+        </footer>
+    </body>
+</html>
